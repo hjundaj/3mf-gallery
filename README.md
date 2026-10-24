@@ -4,6 +4,12 @@ A browsable picture gallery of your `.3mf` print files, for Windows.
 
 If you download a lot of models from [MakerWorld](https://makerworld.com) or Printables, your folder soon fills up with names like `13878.3mf` or `a8f3c2_model.3mf`, and you have to open each one in Bambu Studio to remember what it is. 3MF Gallery builds a single `gallery.html` page with a picture, the real model title, and the designer for every file. You can search, sort and filter it, and open any model in Bambu Studio with one click.
 
+![The gallery: a tile with picture, title and designer for every .3mf file](docs/gallery.png)
+
+![Details view in dark mode: cover, photo and plate previews, description, Open in Bambu Studio button](docs/details.png)
+
+<sub>The screenshots show fictional sample models made for this README.</sub>
+
 - **Nothing to install.** It runs on PowerShell, which comes with every copy of Windows 10 and 11.
 - **Your files are only read, never changed.** A `.3mf` file is a ZIP archive. Bambu Studio and MakerWorld store the cover image, the photos of printed models, a preview of every plate, and the title, designer and description inside it. The gallery just reads them.
 - **Works on network drives / NAS.** Refreshing is fast: pictures are only extracted from new or changed files.
